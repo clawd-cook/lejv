@@ -4,19 +4,18 @@
   "version": "1.0.0",
   "unibest": {
     "platforms": [
+      "h5",
       "mp-weixin",
-      "mp-alipay",
-      "mp-toutiao",
-      "h5"
+      "mp-toutiao"
     ],
-    "uiLibrary": "tdesign",
+    "uiLibrary": "wot-ui-v2",
     "loginStrategy": false,
     "i18n": false,
     "chartLibraries": [],
     "cliVersion": "4.0.16",
     "unibestVersion": "4.4.1",
     "unibestUpdateTime": "2026-05-22",
-    "createdAt": "2026-09-22 09:40:19"
+    "createdAt": "2026-09-22 09:42:17"
   },
   "packageManager": "pnpm@10.10.0",
   "description": "unibest - 最好的 uniapp 开发模板",
@@ -146,7 +145,7 @@
     "vue-i18n": "9.1.9",
     "vue-router": "4.5.1",
     "z-paging": "2.8.7",
-    "@tdesign/uniapp": "latest"
+    "@wot-ui/ui": "latest"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
