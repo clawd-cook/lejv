@@ -1,10 +1,10 @@
 packages:
-  - 'apps/*'
-  - 'packages/*'
+  - "apps/*"
+  - "packages/*"
 
 allowBuilds:
-  '@swc/core': true
-  '@uni-helper/unocss-preset-uni': true
+  "@swc/core": true
+  "@uni-helper/unocss-preset-uni": true
   core-js: true
   es5-ext: true
   esbuild: true

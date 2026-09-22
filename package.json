@@ -2,13 +2,17 @@
   "name": "lejv",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "oxfmt": "0.68.0"
+  },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
@@ -16,9 +20,5 @@
       "onFail": "download"
     }
   },
-  "packageManager": "pnpm@12.5.1",
-  "type": "module",
-  "devDependencies": {
-    "oxfmt": "0.68.0"
-  }
+  "packageManager": "pnpm@12.5.1"
 }
