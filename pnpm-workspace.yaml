@@ -1,0 +1,6 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+
+registries:
+  default: https://registry.npmmirror.com/
