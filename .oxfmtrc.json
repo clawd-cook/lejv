@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-  "ignorePatterns": [],
+  "ignorePatterns": ["apps/lejv-frontend/src/typings.d.ts"],
   "sortImports": true,
   "sortPackageJson": true,
   "sortScripts": true
